@@ -3,6 +3,11 @@
     <head>
         <!--下面那行表示的是網頁的編碼-->
         <meta charset="UTF-8"/>
+        <!--下面這段是在搜索的淺淺的那部分-->
+        <meta name = "description" content="我來試看看到處亂打會怎樣" />
+        <meta name = "author" content="明劭" />
+        <meta name = "keywords" content="明劭, 亂打, 學學" />
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
         <title>謝明劭的網頁</title>>
     </head>
     <body>
@@ -26,11 +31,115 @@
         <br/>
         <a href="dir/page3.html">第三頁</a>
         <br/>
-        <a href="IMG_4912.JPG">我的照片</a>
+        <a href="S__140369934.jpg">我的照片</a>
         <br/>
         <img src="https://popbee.com/image/2018/03/iu-teaser.jpg"/>
+        <hr/>
         <!--width 定義寬度 height 定義高度-->
-        <img src="IMG_4912.JPG" width="400" height="400">
+        <img src="S__140369934.jpg" width="400" >
+        <hr/>
+        <!--影片&youtube影片-->
+        <video src="愛廚易簡介.mp4" controls width="400">瀏覽器無法載入影片</video>
+        <br/>
+        <!--下面這行是直接去youtube案分享裡面的嵌入後直接複製的-->>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bpkKsxUwvmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- 列表&表格-->
+        <!--ul用黑點點表示-->
+        <ul>
+            <li>google</li>
+            <li>facebook</li>
+            <li>IG</li>
+            <li>ptt</li>
+        </ul>
+        <!--ol用數字表示-->
+        <ol type="I" style="color: red;">
+            <li>google</li>
+            <li>facebook</li>
+            <li>IG</li>
+            <li>ptt</li>
+        </ol>
+        <!--ol加入type後可以轉換顯示的文字-->
+        <ol type="A" style="color: yellow;">
+            <li>google</li>
+            <li>facebook</li>
+            <li>IG</li>
+            <li>ptt</li>
+        </ol>
+        <!--可以用width來調整表格寬度-->
+        <table width="400">
+            <tr>
+                <td>日期</td>
+                <td>數學</td>
+                <td>英文</td>
+            </tr>
+            <tr>
+                <td>2/8</td>
+                <td>80</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2/9</td>
+                <td>87</td>
+                <td>487</td>
+            </tr>
+        </table>
+        <!--html 的容器div& span-->
+        <div>
+            <table width="400" style="color: blue;">
+                <tr>
+                    <td>日期</td>
+                    <td>數學</td>
+                    <td>英文</td>
+                </tr>
+                <tr>
+                    <td>2/8</td>
+                    <td>80</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>2/9</td>
+                    <td>87</td>
+                    <td>487</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--a標籤寫得時候會黏再一起-->
+        <a href='#'>link1</a>
+        <a href='#'>link2</a>
+        <hr/>
+        <!--p標籤寫得時候會直接換行-->
+        <p>你好</p>
+        <p>哈哈</p>
+
+
+        <span>span1</span>
+        <span>span1</span>
+        <hr/>
+        <div>div1</div>
+        <div>div2</div>
+
+        <!--html輸入標籤-->
+        <!--placeholder 淺淺的字   password 把你打的字隱藏-->
+        <input type="text" placeholder="請輸入帳號"/>
+        <br/>
+        <br/>
+        <input type="password" placeholder="請輸入帳號"/>
+        <br/>
+        <br/>
+        <input type="date" />
+        <br/>
+        <br/>
+        <input type="range" />
+        <br/>
+        <br/>
+        <input type="file" />
+        <br/>
+        <br/>
+        <input type="checkbox" />
+        <br/>
+        <br/>
+        <textarea>你好</textarea>
     </body>
 </html>
 
